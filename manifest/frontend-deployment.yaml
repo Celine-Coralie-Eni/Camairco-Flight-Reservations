@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: frontend
-          image: ghcr.io/Celine-Coralie-Eni/flight-ui:latest
+          image: ghcr.io/celine-coralie-eni/flight-ui:latest
           imagePullPolicy: Always
           ports:
             - containerPort: 80

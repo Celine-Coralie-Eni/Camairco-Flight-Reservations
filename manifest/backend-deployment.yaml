@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: backend
-          image: ghcr.io/Celine-Coralie-Eni/flight-api:latest
+          image: ghcr.io/celine-coralie-eni/flight-api:latest
           imagePullPolicy: Always
           ports:
             - containerPort: 8080
