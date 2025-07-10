@@ -7,7 +7,7 @@ on:
 
 env:
   IMAGE_NAME: flight-ui
-  IMAGE_PATH: Celine-Coralie-Eni
+  IMAGE_PATH: celine-coralie-eni
 
 jobs:
   build:
