@@ -62,16 +62,16 @@ export default function LoginPage() {
             <TextField
               fullWidth
               margin="normal"
-              label="Username"
-              name="username"
-              value={values.username}
+              label="Email"
+              name="email"
+              value={values.email}
               onChange={handleChange}
               onBlur={handleBlur}
-              error={touched.username && Boolean(errors.username)}
-              helperText={touched.username && errors.username}
+              error={touched.email && Boolean(errors.email)}
+              helperText={touched.email && errors.email}
               InputProps={{
                 startAdornment: (
-                  <InputAdornment position="start">🧍</InputAdornment>
+                  <InputAdornment position="start">📧</InputAdornment>
                 ),
               }}
             />
